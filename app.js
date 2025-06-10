@@ -1,4 +1,6 @@
 
+
+
 const API_URL = "https://medbot-ai-d0st.onrender.com";
 
 // --- Auth helpers ---
@@ -7,7 +9,7 @@ function isLoggedIn() {
 }
 function logout() {
   localStorage.removeItem('token');
-  window.location.href = 'landing.html';
+  window.location.href = 'index.html';
 }
 
 // --- API Calls ---
